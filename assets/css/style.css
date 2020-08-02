@@ -5,8 +5,76 @@
 	background-position: left;
 }
 
-@media screen and (max-width: 600px) {
-.ocultar-div{
-display:none;
+
+
+body{ font-family: 'Oxygen', sans-serif;
 }
+
+
+
+/* NAV FIJO */
+
+nav {
+	position: fixed;
+	
 }
+
+/* SECTION SOBRE MI */
+		.sobre-mi{
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+
+
+
+/* SECTION EXPERIENCIA */
+
+		.section-experiencia{
+			padding: 100px 50px 50px 100px;
+		}
+		.section-experiencia h2{
+			padding-bottom: 60px;
+		}
+
+/* SECTION MIS TRABAJOS */
+
+		.section-mistrabajos{
+			padding-top: 50px;
+			padding-bottom: 70px;
+		}
+
+
+
+/* SECTION FOOTER */
+
+		.fondo-footer{
+			height: 120px;
+		}
+
+		.logo-footer{
+			font-size: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+
+		.texto-footer {
+			font-size: 10px;
+			text
+		}
+		.logo-rrss {
+			font-size: 25px;
+		}
+
+
+/* AJUSTE A PANTALLA MOVIL (ELIMINA SECCIÓN SOBRE MI) */		
+
+		@media screen and (max-width: 600px) {
+		.ocultar-div{
+		display:none;
+		}
+		}
+
+
+
