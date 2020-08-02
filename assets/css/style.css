@@ -1,0 +1,12 @@
+.hero {
+	background-image: url('../img/bg_hero.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+
+@media screen and (max-width: 600px) {
+.ocultar-div{
+display:none;
+}
+}
